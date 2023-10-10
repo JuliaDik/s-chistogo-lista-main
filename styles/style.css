@@ -35,6 +35,48 @@ blockquote {
 	background-color: #fee42a;
 }
 
+.content-section__subtitle {
+	margin: 0 0 32px 0;
+	font-family: EB Garamond;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 1.15;
+}
+
+.content-section__introduction {
+	margin: 0 0 32px 0;
+	font-size: 20px;
+	line-height: 1.35;
+}
+
+.content-section__list {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	padding: 0 0 0 20px;
+}
+
+.content-section__list-item {
+	font-size: 16px;
+	line-height: 1.35;
+}
+
+.content-section__list-accent {
+	font-weight: 700;
+}
+
+.accent-span {
+	display: block;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -78,18 +120,6 @@ blockquote {
 	font-weight: 400;
 	font-size: 72px;
 	line-height: 1;
-}
-
-.accent-span {
-	display: block;
-}
-
-.text-center {
-	text-align: center;
-}
-
-.text-right {
-	text-align: right;
 }
 
 .intro {
