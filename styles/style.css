@@ -96,6 +96,35 @@ blockquote {
 	padding: 30px 20px 38px;
 }
 
+.intro__heading {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 0 24px 0;
+}
+
+.intro__title {
+	max-width: 203px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.2;
+	color: #cccccc;
+}
+
+.intro__date {
+	font-size: 16px;
+	line-height: 1.2;
+	color: #cccccc;
+}
+
+.intro__main-text {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	font-size: 16px;
+	line-height: 1.35;
+	color: #f5f5f5;
+}
+
 .reasons {
 	padding: 40px 20px;
 }
