@@ -77,6 +77,65 @@ blockquote {
 	text-align: right;
 }
 
+.cards-list {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	list-style: none;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+.card_theme_dark {
+	color: #f5f5f5;
+	background-color: #343434;
+}
+
+.card_theme_bright {
+	color: #131313;
+	background-color: #fee42a;
+}
+
+.card__author {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.card__author-photo {
+	width: 100px;
+}
+
+.card__author-name {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.35;
+}
+
+.card__content {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.card__title {
+	font-family: EB Garamond;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 1.35;
+}
+
+.card__text {
+	font-size: 16px;
+	line-height: 1.35;
+}
+
 .header {
 	display: flex;
 	justify-content: space-between;
